@@ -1,0 +1,40 @@
+{
+  "id": "6dd96c03153b45c29eeca844757895f3",
+  "title": "人工样本：PCFG + 字典",
+  "status": "cracked",
+  "hashcat_version": "8.0.0",
+  "foundCount": 1,
+  "used_seconds": 5.981177091598511,
+  "elapsed_seconds": 31.97923329216428,
+  "environment": "Apple M1 / macOS; synthetic fixtures only",
+  "stages": [
+    {
+      "name": "PCFG原生模型加载与限时验证",
+      "mode": 4,
+      "runtime": 5,
+      "used_seconds": 5.0,
+      "elapsed_seconds": 21.58249529218301,
+      "status": "timed_out",
+      "attempts": 1,
+      "progress": [
+        172541,
+        34928029303622325
+      ],
+      "returncode": 4
+    },
+    {
+      "name": "验证后续已知字典",
+      "mode": 0,
+      "runtime": 30,
+      "used_seconds": 0.9811770915985107,
+      "elapsed_seconds": 10.39673799998127,
+      "status": "cracked",
+      "attempts": 1,
+      "progress": [
+        2,
+        2
+      ],
+      "returncode": 0
+    }
+  ]
+}

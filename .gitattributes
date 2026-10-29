@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.command text eol=lf
+*.cmd text eol=crlf
+*.hc22000 text eol=lf
+*.pcap -text

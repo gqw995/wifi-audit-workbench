@@ -1,0 +1,38 @@
+# Portable-release dependencies
+/runtime/
+/tools/
+/vendor/
+
+# Local captures, candidates, task state and recovered results
+/local-data/
+/results/
+*.potfile
+*.restore
+*.log
+
+# Old verification workspace; keep verification-v2 and synthetic examples
+/verification/
+
+# Release-only manifests and archives
+/依赖清单.json
+/文件校验.json
+*.zip
+*.zip.sha256
+*.7z
+*.7z.sha256
+*.tar
+*.tar.gz
+*.tgz
+
+# Python environments and caches
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

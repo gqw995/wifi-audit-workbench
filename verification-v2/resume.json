@@ -1,0 +1,41 @@
+{
+  "id": "2056b44b15d14da4969c9c6e08adac8e",
+  "title": "人工样本：中断恢复",
+  "status": "cracked",
+  "hashcat_version": "8.0.0",
+  "foundCount": 1,
+  "used_seconds": 21.324389934539795,
+  "elapsed_seconds": 47.5204645821359,
+  "environment": "Apple M1 / macOS; synthetic fixtures only",
+  "stages": [
+    {
+      "name": "限时字典并验证恢复",
+      "mode": 0,
+      "runtime": 30,
+      "used_seconds": 20.481991052627563,
+      "elapsed_seconds": 37.959926248993725,
+      "status": "exhausted",
+      "attempts": 2,
+      "progress": [
+        1000000,
+        1000000
+      ],
+      "returncode": 1
+    },
+    {
+      "name": "验证后续阶段",
+      "mode": 0,
+      "runtime": 30,
+      "used_seconds": 0.8423988819122314,
+      "elapsed_seconds": 9.560538333142176,
+      "status": "cracked",
+      "attempts": 1,
+      "progress": [
+        2,
+        2
+      ],
+      "returncode": 0
+    }
+  ],
+  "observed_pause_restore_point": 507904
+}

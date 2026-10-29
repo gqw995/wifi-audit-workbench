@@ -1,0 +1,11 @@
+{
+  "source": "outputs/wifi-audit/static/index.html",
+  "stale_response_ignored": true,
+  "fresh_response_rendered": true,
+  "old_plan_startable_during_repreview": false,
+  "normal_polls_share_pending_request": true,
+  "force_refresh_waits_then_fetches_fresh_state": true,
+  "upload_selects_new_import_after_fresh_state": true,
+  "demo_selects_new_import_after_fresh_state": true,
+  "method": "Actual production JavaScript, VM + deferred API, no browser/network"
+}
